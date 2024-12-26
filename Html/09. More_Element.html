@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All elements of form</title>
+</head>
+
+<body>
+        <h2>Elements</h2>
+
+        <p>The select element defines a drop-down list:</p>
+
+        <form action="">
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="fiat">Fiat</option>
+                        <option value="audi">Audi</option>
+                        <option value="audi">Skoda</option>
+                        <option value="audi">BMW</option>
+                </select>
+
+                <p>The textarea element defines a multi-line input field.</p>
+                <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea><br>
+
+                <p>The button Element.</p>
+                <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+                <p>The fieldset element is used to group related data in a form, and the legend element defines a
+                        caption for the fieldset element.</p>
+                <fieldset>
+                        <legend>Personalia:</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="John"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                </fieldset><br>
+
+                <label for="date">Date of Birth : </label>
+                <input type="date" name="date" id=""><br /><br>
+                <input type="submit">
+        </form>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+The BETWEEN operator in SQL is used to filter the result set within a certain range of values. It is commonly used in the WHERE clause and can be applied to numeric, date, or text data types.
+
+        BETWEEN Syntax:
+        SELECT column1, column2 FROM table_name WHERE column_name BETWEEN value1 AND value2;
+
+        SELECT * FROM Customers WHERE PostalCode BETWEEN 4000 AND 4500;
+        +------------+---------------+-----------------+--------------+-----------+------------+---------+
+        | CustomerID | CustomerName  | ContactName     | Address      | City      | PostalCode | Country |
+        +------------+---------------+-----------------+--------------+-----------+------------+---------+
+        |          1 | Cardinal John | Tom B. Erichsen | Skagen 21    | Stavanger | 4006       | Norway  |
+        |          2 | Greasy Burger | Per Olsen       | Gateveien 15 | Sandnes   | 4306       | Norway  |
+        +------------+---------------+-----------------+--------------+-----------+------------+---------+
+        2 rows in set, 1 warning (0.00 sec)

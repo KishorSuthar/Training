@@ -1,0 +1,29 @@
+Here is the syntax for creating a table and inserting data into it in SQL.
+
+1. CREATE TABLE Syntax
+The CREATE TABLE statement is used to create a new table in the database.
+
+        Syntax:
+        CREATE TABLE table_name (
+        column1 datatype constraints,
+        column2 datatype constraints,
+        ...
+        columnN datatype constraints
+        );
+
+        CREATE TABLE Customers (CustomerID INT PRIMARY KEY, CustomerName VARCHAR(100) NOT NULL, ContactName VARCHAR(100), Address VARCHAR(255), City VARCHAR(100), PostalCode VARCHAR(20), Country VARCHAR(100));
+        Query OK, 0 rows affected (0.02 sec)
+
+
+2. INSERT INTO Syntax
+The INSERT INTO statement is used to insert new rows into a table.
+
+        Syntax:
+        INSERT INTO table_name (column1, column2, ..., columnN) VALUES (value1, value2, ..., valueN);
+
+        INSERT INTO Customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)
+        VALUES
+        (1,'Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway'),
+        (2,'Greasy Burger', 'Per Olsen', 'Gateveien 15', 'Sandnes', '4306', 'Norway'),
+        (3,'Tasty Tee', 'Finn Egan', 'Streetroad 19B', 'Liverpool', 'L1 0AA', 'UK');
+        Query OK, 3 rows affected (0.01.sec)                                                                        Records: 3  Duplicates: 0  Warnings: 0

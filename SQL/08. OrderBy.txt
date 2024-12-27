@@ -1,0 +1,7 @@
+The ORDER BY clause in SQL is used to sort the result set of a query by one or more columns. You can specify whether the sorting should be in ascending (default) or descending order.
+
+        ORDER BY Syntax:
+        SELECT column1, column2 FROM table_name ORDER BY column_name [ASC|DESC];
+
+        SELECT * FROM Customers ORDER BY City DESC;
+        4 rows in set (0.00 sec)

@@ -1,0 +1,7 @@
+To perform the DELETE operation in SQL, the DELETE statement is used. This allows you to remove one or more records from a table based on a specified condition in the WHERE clause.
+
+        DELETE Syntax:
+        DELETE FROM table_name WHERE condition;
+
+        DELETE FROM Customers WHERE CustomerID = 3;
+        Query OK, 1 row affected (0.01 sec)

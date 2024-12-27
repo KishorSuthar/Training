@@ -1,0 +1,12 @@
+In SQL, the FILTER command is not a standard SQL command. However, filtering data is typically done using the WHERE clause, which is used to specify the condition(s) that must be satisfied for records to be selected, updated, or deleted.
+
+
+1. WHERE Clause (Basic Filtering)
+The WHERE clause is used to filter rows based on specific conditions.
+
+        Syntax:
+        SELECT column1, column2 FROM table_name WHERE condition;
+
+        SELECT * FROM Customers WHERE City = 'Stavanger';
+        1 row in set (0.00 sec)
+        

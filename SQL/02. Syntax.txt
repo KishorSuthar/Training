@@ -1,0 +1,13 @@
+->The CREATE DATABASE SYNTAX in SQL is used to create a new database. Here's the general syntax:
+
+        - CREATE DATABASE database_name;
+
+-> database_name: The name you want to give the database. It must be unique within the database server.
+
+        - CREATE DATABASE training;
+
+
+Create database training;                                                                                        Query OK, 1 row affected (0.01 sec)
+
+
+  

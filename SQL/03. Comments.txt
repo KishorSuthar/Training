@@ -1,0 +1,18 @@
+SQL comments are used to add notes or explanations to your SQL code, making it easier to understand or document for others. These comments are ignored by the database engine during execution.
+
+Types of SQL Comments
+- Single-Line Comments: Use two hyphens (--) to add a comment for a single line.
+
+        Syntax:
+        -- This is a single-line comment
+        SELECT * FROM table_name; 
+
+- Multi-Line Comments: Use /* to start and */ to end a multi-line comment.
+
+        Syntax:
+        /* This is a multi-line comment
+        explaining the query below. */
+        SELECT * FROM table_name;
+
+
+        

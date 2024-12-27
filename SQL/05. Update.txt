@@ -1,0 +1,8 @@
+The UPDATE statement in SQL is used to modify existing records in a table. You can update one or more rows based on a condition.
+
+        Syntax:
+        UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+
+        UPDATE Customers SET CustomerName = 'Cardinal John' WHERE CustomerID = 1;
+        
+        Query OK, 1 row affected (0.01 sec)                                                                          Rows matched: 1  Changed: 1 Warnings:0                                                                                                   mysql> select * from Customers;                                                                                         +------------+---------------+-----------------+----------------+-----------+------------+---------+                    | CustomerID | CustomerName  | ContactName     | Address        | City      | PostalCode | Country |                    +------------+---------------+-----------------+----------------+-----------+------------+---------+                    |          1 | Cardinal John | Tom B. Erichsen | Skagen 21      | Stavanger | 4006       | Norway  |                    |          2 | Greasy Burger | Per Olsen       | Gateveien 15   | Sandnes   | 4306       | Norway  |                    |          3 | Tasty Tee     | Finn Egan       | Streetroad 19B | Liverpool | L1 0AA     | UK      |                    +------------+---------------+-----------------+----------------+-----------+------------+---------+                    3 rows in set (0.00 sec)              

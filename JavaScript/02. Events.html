@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Events</title>
+        <script>
+                function hello() {
+                        alert("OnClick event.");
+                }
+
+                function hello2() {
+                        alert("Double click event.");
+                }
+                function hello3() {
+                        alert("OnContextMenu event.");
+                }
+                function hello4() {
+                        alert("Mouse enter event.");
+                }
+                function hello5() {
+                        alert("Mouse out event.");
+                }
+        </script>
+</head>
+
+<body>
+        <button onclick="hello()">Click Me!</button>
+        
+        <p ondblclick="hello2()">Double click on me!</p>
+
+        <p oncontextmenu="hello3()">Right click on me!</p>
+
+        <p onmouseenter="hello4()">Bring mouse on me!</p>
+
+        <p onmouseout="hello5()">Take out mouse from me!</p>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Object</title>
+        <script>
+                var a = {
+                        fname: "Ronak",
+                        lname: "Shah",
+                        age: 24,
+                        email: "ronakshah@gmail.com",
+                        salary: function(){
+                                return 40000;
+                        },
+                        fullname: function(){
+                                return this.fname + " " + this.lname;
+                        },
+                        living: {
+                                city: 'Ahmedabad',
+                                country: 'India'
+                        }
+                }       
+
+                document.write(a.fname,"<br>");
+                document.write(a.lname,"<br>");
+                document.write(a.age,"<br>");
+                document.write(a.email,"<br>");
+                document.write(a.salary(),"<br>");
+                document.write(a.fullname(),"<br>");
+                document.write(a.living.city,"<br>");
+                document.write(a.living.country);
+
+        </script>
+</head>
+<body>
+        
+</body>
+</html>
